@@ -42,21 +42,21 @@ game = new Phaser.Game(config);
 
 // Função de preload para carregar todos os recursos
 function preload() {
-  this.load.image("background", "assets/GameObjects/classic/background-day.png");
-  this.load.image("character1", "assets/GameObjects/classic/yellowbird-midflap.png");
-  this.load.image("character2", "assets/GameObjects/classic/yellowbird-downflap.png");
-  this.load.image("character3", "assets/GameObjects/classic/yellowbird-upflap.png");
-  this.load.image("character4", "assets/GameObjects/classic/yellowbird-fall.png");
-  this.load.image("pillar", "assets/GameObjects/classic/pipe-green.png");
-  this.load.image("base", "assets/GameObjects/classic/base.png");
-  this.load.image("gameover", "assets/UI/classic/gameover.png");
-  this.load.image("score", "assets/UI/classic/score.png");
-  this.load.image("retry", "assets/UI/classic/retry.png");
-  this.load.image("startGame", "assets/UI/classic/message.png");
-  this.load.audio("score", "assets/SoundEffects/classic/point.wav");
-  this.load.audio("hit", "assets/SoundEffects/classic/hit.wav");
-  this.load.audio("wing", "assets/SoundEffects/classic/wing.wav");
-  this.load.audio("die", "assets/SoundEffects/classic/die.wav");
+  this.load.image("background", "assets/GameObjects/background-day.png");
+  this.load.image("character1", "assets/GameObjects/yellowbird-midflap.png");
+  this.load.image("character2", "assets/GameObjects/yellowbird-downflap.png");
+  this.load.image("character3", "assets/GameObjects/yellowbird-upflap.png");
+  this.load.image("character4", "assets/GameObjects/yellowbird-fall.png");
+  this.load.image("pillar", "assets/GameObjects/pipe-green.png");
+  this.load.image("base", "assets/GameObjects/base.png");
+  this.load.image("gameover", "assets/UI/gameover.png");
+  this.load.image("score", "assets/UI/score.png");
+  this.load.image("retry", "assets/UI/retry.png");
+  this.load.image("startGame", "assets/UI/message.png");
+  this.load.audio("score", "assets/SoundEffects/point.wav");
+  this.load.audio("hit", "assets/SoundEffects/hit.wav");
+  this.load.audio("wing", "assets/SoundEffects/wing.wav");
+  this.load.audio("die", "assets/SoundEffects/die.wav");
 }
 
 // Função de criação do jogo
